@@ -1,0 +1,63 @@
+<!doctype html>
+<!--doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title>pagina de exmeplo</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Vinícius">
+        <meta name="description" content="lista de documentos">
+        <meta name="keyowrds" content="html5, tecnologia">
+
+        <style>
+
+            div{
+                border: 3px solid red;
+                padding: 25px;
+                position: relative;
+                margin: 25px;
+            }
+
+            div:before{
+                content: "texto before: ";
+                background-color: #ccc;
+            }
+
+            div:after{
+                content: "";
+                background-color: red;
+                width: 25px;
+                height: 25px;
+                display: inline-block;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        
+        <div>Texto principal da div</div>
+
+        <article>
+
+            <p>Antes do Título (H3)</p>
+            <h3>
+                Título
+            </h3>
+            <p>Parágrafo <a href="#">Apenas um link com <b>negrito</b></a></p>
+            <p>Parágrafo <a href="#">Apenas um link com <b>negrito</b></a></p>
+            <p>Parágrafo <a href="#">Apenas um link com <b>negrito</b></a></p>
+        </article>
+
+        <ul>
+            <li><a href="#">Link falso</a></li>
+            <li><a href="#">Link falso</a></li>
+            <li><a href="http://serfrontend.com" target="_blank">Link externo</a></li>
+            <li><a href="http://serfrontend.com/qq.pdf">Link externo</a></li>
+            <li><a href="23_transition.html" title="Veja o exercício anterior">Link interno</a></li>
+        </ul>
+
+    </body>
+</html>

@@ -1,0 +1,114 @@
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagens/body.jpg);
+}
+
+#principal{
+    width: 1024px;
+    margin: 20px auto;
+    background-image: url(../imagens/branco.jpg);
+}
+
+.header-top{
+    background-color: white;
+    padding-bottom: 10px;
+    margin: auto;
+    position: relative;
+    background-image: url(../imagens/branco.jpg);
+}
+
+.header-top h1{
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgb(194, 189, 189);
+    padding-top: 10px;
+}
+
+.header-top li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+
+.header-top nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.header-top nav a:hover{
+    background-color: rgb(201, 201, 201);
+}
+
+.gallery{
+    color: black;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+    text-shadow: 3px 3px 2px rgb(194, 189, 189);
+}
+
+.cards{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.cards p{
+    font-weight: bold;
+    text-shadow: 3px 3px 2px rgb(194, 189, 189);
+}
+
+.sobre{
+    background-image: url(../imagens/branco.jpg);
+}
+
+.sobre p{
+    line-height: 25px;
+    text-shadow: 3px 3px 2px rgb(194, 189, 189);
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.sobre h1{
+    text-shadow: 3px 3px 2px rgb(194, 189, 189);
+    padding: 20px;
+}
+
+.rodape{
+    background-color: rgb(168, 168, 168);
+    padding: 25px;
+    font-size: 12px;
+    color: black;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.formLogin{
+    width: 250px;
+    float: right;
+}
+
+#user, #senha{
+    margin-bottom: 5px;
+}
+
+.formLogin label, legend{
+    text-transform: uppercase;
+}
+
+.formLogin legend{
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+
+
+
